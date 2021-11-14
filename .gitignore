@@ -1,0 +1,6 @@
+# Editor gunk
+.vscode
+
+# Build artifacts
+/target
+/**/__pycache__

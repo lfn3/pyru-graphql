@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyru-graphql"
+version = "0.1.0"
+description = ""
+authors = ["lfn3 <liam@lfn3.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gql = "3.0.0b0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+mypy = "^0.910"
+black = "^21.10b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
